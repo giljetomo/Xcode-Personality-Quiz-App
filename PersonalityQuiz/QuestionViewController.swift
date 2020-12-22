@@ -179,14 +179,14 @@ class QuestionViewController: UIViewController {
     
     func updateMultipleStack(using answers: [Answer]) {
         multipleQuestionSV.isHidden = false
-        multipleLabel1.text = answers[0].text
-        multipleLabel2.text = answers[1].text
-        multipleLabel3.text = answers[2].text
-        multipleLabel4.text = answers[3].text
         switch1.isOn = false
         switch2.isOn = false
         switch3.isOn = false
         switch4.isOn = false
+        multipleLabel1.text = answers[0].text
+        multipleLabel2.text = answers[1].text
+        multipleLabel3.text = answers[2].text
+        multipleLabel4.text = answers[3].text
     }
     
     func updateRangedStack(using answers: [Answer]) {
